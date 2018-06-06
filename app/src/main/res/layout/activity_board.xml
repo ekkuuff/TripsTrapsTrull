@@ -7,6 +7,17 @@
     android:paddingBottom="16dp" tools:context=".Board">
 
 
+    <TextView
+        android:id="@+id/turn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape2"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="MÄNGIB "
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -84,21 +95,14 @@
     </TableLayout>
 
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Mängi: "
-        android:id="@+id/turn"
-        android:gravity="left"
-        android:padding="10dp"
-        android:textSize="24sp"
-        android:textColor="@color/red" />
-
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Alusta uuesti"
         android:id="@+id/reset"
-        android:textColor="@color/red" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:padding="10dp"
+        android:text="Alusta uuesti"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
 
 </LinearLayout>
